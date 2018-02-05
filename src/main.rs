@@ -1,3 +1,5 @@
+extern crate rusty_blockchain_study;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", rusty_blockchain_study::block::hello());
 }
